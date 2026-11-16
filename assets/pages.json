@@ -24,6 +24,18 @@
   "k": "video tutorial anforderungen checkliste länge aufbau text einblenden aufnehmen schneiden beispiel erklärvideo"
  },
  {
+  "t": "Video-Planung",
+  "u": "grundlagen/video-planung.html",
+  "s": "Die Video-Planung: Thema, Was muss rein? Vorlage, Beispiel und Checkliste.",
+  "k": "video planung stichpunkte vorlage beispiel datei 01 videoplanung thema was muss rein"
+ },
+ {
+  "t": "Wiki-Seite schreiben",
+  "u": "grundlagen/wiki-seite-schreiben.html",
+  "s": "Aufbau und Formatierung der Wiki-Seite als Word-Datei: Vorlage, Beispiel und Checkliste.",
+  "k": "wiki seite schreiben word formatierung vorlage beispiel überschrift bilder datei 03 wikiseite"
+ },
+ {
   "t": "Datei richtig benennen",
   "u": "themen/datei-richtig-benennen.html",
   "s": "Offenes Thema (Windows): Ein Dateiname nach unserer Regel, damit jeder die Datei sofort findet.",
