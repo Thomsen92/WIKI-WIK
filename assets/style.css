@@ -144,3 +144,9 @@ table.data td, table.data th { vertical-align: top; }
 figure.thumb.wide { max-width: 720px; }
 .tip { background: var(--box); border-left: 4px solid var(--accent); padding: 6px 12px; }
 h4 { font-size: 16px; margin: 1em 0 .3em; }
+
+/* Leere Themenseiten */
+.stub { background: var(--warn); border: 1px solid var(--line); border-left: 6px solid var(--red); padding: 10px 16px; margin: 10px 0 14px; }
+ul.check { list-style: none; padding-left: 0; }
+ul.check li { padding-left: 1.9em; position: relative; margin: .35em 0; }
+ul.check li::before { content: "\2610"; position: absolute; left: 0; top: -1px; font-size: 1.15em; color: var(--muted); }

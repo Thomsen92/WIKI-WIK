@@ -18,57 +18,99 @@
   "k": "freecut video schneiden editor browser workspace ordner medien spur text rasiermesser exportieren mp4 timeline zeitleiste"
  },
  {
-  "t": "Bildschirm aufnehmen",
-  "u": "offene-themen.html",
-  "s": "Offenes Thema – diese Seite gibt es noch nicht.",
-  "k": "bildschirm aufnehmen"
- },
- {
-  "t": "Video kürzen",
-  "u": "offene-themen.html",
-  "s": "Offenes Thema – diese Seite gibt es noch nicht.",
-  "k": "video kürzen"
- },
- {
-  "t": "Text im Video einblenden",
-  "u": "offene-themen.html",
-  "s": "Offenes Thema – diese Seite gibt es noch nicht.",
-  "k": "text im video einblenden"
- },
- {
-  "t": "Video als MP4 exportieren",
-  "u": "offene-themen.html",
-  "s": "Offenes Thema – diese Seite gibt es noch nicht.",
-  "k": "video als mp4 exportieren"
- },
- {
   "t": "Datei richtig benennen",
-  "u": "offene-themen.html",
-  "s": "Offenes Thema – diese Seite gibt es noch nicht.",
-  "k": "datei richtig benennen"
+  "u": "themen/datei-richtig-benennen.html",
+  "s": "Offenes Thema (Windows): Ein Dateiname nach unserer Regel, damit jeder die Datei sofort findet.",
+  "k": "datei umbenennen dateiname namensregel f2 kürzel version windows"
+ },
+ {
+  "t": "Ordner anlegen und Datei speichern",
+  "u": "themen/ordner-anlegen-und-datei-speichern.html",
+  "s": "Offenes Thema (Windows): Einen Ordner anlegen, eine Datei dort speichern und wiederfinden.",
+  "k": "ordner anlegen speichern speichern unter explorer speicherort windows"
  },
  {
   "t": "Datei in Teams hochladen",
-  "u": "offene-themen.html",
-  "s": "Offenes Thema – diese Seite gibt es noch nicht.",
-  "k": "datei in teams hochladen"
+  "u": "themen/datei-in-teams-hochladen.html",
+  "s": "Offenes Thema (Windows): Eine Datei in Teams im richtigen Ordner ablegen und prüfen, dass sie da ist.",
+  "k": "teams hochladen datei ordner wiki kanal dateien abgabe windows"
  },
  {
-  "t": "Ordner in Teams anlegen",
-  "u": "offene-themen.html",
-  "s": "Offenes Thema – diese Seite gibt es noch nicht.",
-  "k": "ordner in teams anlegen"
+  "t": "Kopieren, Ausschneiden und Einfügen",
+  "u": "themen/kopieren-ausschneiden-einfuegen.html",
+  "s": "Offenes Thema (Windows): Mit Tastenkürzeln Text und Dateien schnell kopieren, verschieben und einfügen.",
+  "k": "kopieren ausschneiden einfügen strg c v x z tastenkürzel zwischenablage windows"
+ },
+ {
+  "t": "Text formatieren: fett, kursiv, unterstrichen",
+  "u": "themen/text-formatieren-fett-kursiv-unterstrichen.html",
+  "s": "Offenes Thema (Word): Einen Text mit fett, kursiv und unterstrichen hervorheben.",
+  "k": "word fett kursiv unterstrichen formatieren text markieren word"
+ },
+ {
+  "t": "Schriftart, Schriftgröße und Schriftfarbe",
+  "u": "themen/schriftart-schriftgroesse-schriftfarbe.html",
+  "s": "Offenes Thema (Word): Schrift ändern, sodass der Text gut lesbar ist.",
+  "k": "word schriftart schriftgröße schriftfarbe lesbar word"
+ },
+ {
+  "t": "Text ausrichten und Aufzählungen",
+  "u": "themen/text-ausrichten-und-aufzaehlungen.html",
+  "s": "Offenes Thema (Word): Absätze ausrichten und eine Liste mit Aufzählungszeichen anlegen.",
+  "k": "word ausrichten blocksatz zentriert aufzählung nummerierung zeilenabstand absatz word"
  },
  {
   "t": "Bild in Word einfügen",
-  "u": "offene-themen.html",
-  "s": "Offenes Thema – diese Seite gibt es noch nicht.",
-  "k": "bild in word einfügen"
+  "u": "themen/bild-in-word-einfuegen.html",
+  "s": "Offenes Thema (Word): Ein Bild einfügen, in der Größe anpassen und richtig platzieren.",
+  "k": "word bild einfügen größe textumbruch screenshot word"
  },
  {
-  "t": "Wiki-Seite ausfüllen",
-  "u": "offene-themen.html",
-  "s": "Offenes Thema – diese Seite gibt es noch nicht.",
-  "k": "wiki-seite ausfüllen"
+  "t": "Daten eingeben und Spalten anpassen",
+  "u": "themen/daten-eingeben-und-spalten-anpassen.html",
+  "s": "Offenes Thema (Excel): Eine kleine Tabelle eingeben und lesbar machen.",
+  "k": "excel zellen eingeben spaltenbreite zeile spalte tabelle excel"
+ },
+ {
+  "t": "Summe berechnen",
+  "u": "themen/summe-berechnen.html",
+  "s": "Offenes Thema (Excel): Zahlen addieren und die Rechnung von Excel machen lassen.",
+  "k": "excel summe autosumme formel rechnen addieren excel"
+ },
+ {
+  "t": "Zellen formatieren",
+  "u": "themen/zellen-formatieren.html",
+  "s": "Offenes Thema (Excel): Eine Tabelle mit Rahmen, Farben und Zahlenformat übersichtlich machen.",
+  "k": "excel formatieren rahmen füllfarbe währung prozent zahlenformat excel"
+ },
+ {
+  "t": "Diagramm erstellen",
+  "u": "themen/diagramm-erstellen.html",
+  "s": "Offenes Thema (Excel): Aus einer Tabelle ein einfaches Diagramm machen.",
+  "k": "excel diagramm säulen kreis titel achsen excel"
+ },
+ {
+  "t": "Neue Folie und Layout",
+  "u": "themen/neue-folie-und-layout.html",
+  "s": "Offenes Thema (PowerPoint): Folien anlegen, ein Layout wählen und die Folien ordnen.",
+  "k": "powerpoint neue folie layout duplizieren folie verschieben powerpoint"
+ },
+ {
+  "t": "Text und Bild auf der Folie",
+  "u": "themen/text-und-bild-auf-der-folie.html",
+  "s": "Offenes Thema (PowerPoint): Text und ein Bild auf einer Folie platzieren.",
+  "k": "powerpoint textfeld bild einfügen position ausrichten powerpoint"
+ },
+ {
+  "t": "Animation Erscheinen",
+  "u": "themen/animation-erscheinen.html",
+  "s": "Offenes Thema (PowerPoint): Ein Objekt per Klick auf der Folie erscheinen lassen.",
+  "k": "powerpoint animation erscheinen beim klicken reihenfolge powerpoint"
+ },
+ {
+  "t": "Folienübergang",
+  "u": "themen/folienuebergang.html",
+  "s": "Offenes Thema (PowerPoint): Einen Übergang zwischen Folien einstellen.",
+  "k": "powerpoint übergang folienübergang dauer präsentationsmodus f5 powerpoint"
  }
 ]
