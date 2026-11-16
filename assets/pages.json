@@ -18,6 +18,12 @@
   "k": "freecut video schneiden editor browser workspace ordner medien spur text rasiermesser exportieren mp4 timeline zeitleiste"
  },
  {
+  "t": "Video-Tutorial",
+  "u": "grundlagen/video-tutorial.html",
+  "s": "Anforderungen an ein Video-Tutorial: Länge, Aufbau, Text, Bild, Datenschutz und Checkliste.",
+  "k": "video tutorial anforderungen checkliste länge aufbau text einblenden aufnehmen schneiden beispiel erklärvideo"
+ },
+ {
   "t": "Datei richtig benennen",
   "u": "themen/datei-richtig-benennen.html",
   "s": "Offenes Thema (Windows): Ein Dateiname nach unserer Regel, damit jeder die Datei sofort findet.",
