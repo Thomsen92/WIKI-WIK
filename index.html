@@ -3,46 +3,63 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>WIK-Wiki</title>
-<meta name="description" content="Das Wiki der Klasse 10M: Tutorials zu Word, Excel, PowerPoint, Gestaltung und Kommunikation.">
+<title>Hauptseite – WIK-Wiki</title>
 <link rel="stylesheet" href="assets/style.css">
+<script defer src="assets/wiki.js"></script>
 </head>
 <body>
-<header class="site">
-  <div class="wrap">
-    <a href="index.html">WIK-Wiki</a>
-    <span class="tag">Klasse 10M</span>
-  </div>
+<header class="top">
+  <button class="menu" aria-label="Menü" onclick="document.body.classList.toggle('navopen')">☰</button>
+  <a class="brand" href="index.html">WIK-Wiki</a>
+  <form class="search" role="search" onsubmit="return false">
+    <input id="q" type="search" placeholder="WIK-Wiki durchsuchen" autocomplete="off" aria-label="Suche" data-base="">
+    <ul id="results" hidden></ul>
+  </form>
 </header>
+<div class="layout">
+<aside class="side" aria-label="Navigation">
+  <a class="logo" href="index.html"><span class="mark">W</span><span><b>WIK-Wiki</b><small>Das Nachschlagewerk der Klasse 10M</small></span></a>
+  <section><h2>Navigation</h2><ul>
+    <li><a href="index.html">Hauptseite</a></li>
+    <li><a href="alle-seiten.html">Alle Seiten</a></li>
+    <li><a href="offene-themen.html">Offene Themen</a></li>
+    <li><a href="mitmachen.html">Mitmachen</a></li>
+  </ul></section>
+  <section><h2>Bereiche</h2><ul><li><a href="kategorie/grundlagen.html">Grundlagen</a></li><li><a class="new" href="kategorie/leer.html" title="Noch keine Seiten">Word</a></li><li><a class="new" href="kategorie/leer.html" title="Noch keine Seiten">Excel</a></li><li><a class="new" href="kategorie/leer.html" title="Noch keine Seiten">PowerPoint</a></li><li><a class="new" href="kategorie/leer.html" title="Noch keine Seiten">Gestaltung</a></li><li><a class="new" href="kategorie/leer.html" title="Noch keine Seiten">Kommunikation</a></li></ul></section>
+</aside>
+<main class="content">
 
-<main class="wrap">
-  <h1>WIK-Wiki</h1>
-  <p class="lead">Von uns für uns: Erklärvideos und Anleitungen, die die Klasse selbst gemacht hat.</p>
+<div class="page">
+<div class="welcome">
+<h1 class="first">Willkommen im WIK-Wiki</h1>
+<p>Das Nachschlagewerk der Klasse 10M. Hier sammeln wir Anleitungen und Erklärvideos zu Word, Excel, PowerPoint, Gestaltung und Kommunikation. Geschrieben von uns, für uns.</p>
+<p class="stat"><b>1</b> Artikel · <b>9</b> offene Themen</p>
+</div>
+<div class="cols">
+<section class="box">
+<h2>Artikel des Tages</h2>
+<figure class="thumb tl"><a href="grundlagen/screenshot-erstellen.html"><img src="grundlagen/assets/screenshot-poster.png" alt="Titelbild des Erklärvideos Screenshot erstellen"></a></figure>
+<p><b><a href="grundlagen/screenshot-erstellen.html">Screenshot erstellen</a></b><br>Mit <kbd>Win</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> einen Ausschnitt des Bildschirms aufnehmen und in ein Dokument einfügen. <a href="grundlagen/screenshot-erstellen.html">Weiterlesen …</a></p>
+</section>
+<section class="box">
+<h2>Offene Themen</h2>
+<p>Diese Seiten gibt es noch nicht. Such dir eins aus und schreib den Artikel:</p>
+<ul class="two"><li><a class="new" href="offene-themen.html" title="Seite existiert noch nicht">Bildschirm aufnehmen</a></li><li><a class="new" href="offene-themen.html" title="Seite existiert noch nicht">Video kürzen</a></li><li><a class="new" href="offene-themen.html" title="Seite existiert noch nicht">Text im Video einblenden</a></li><li><a class="new" href="offene-themen.html" title="Seite existiert noch nicht">Video als MP4 exportieren</a></li><li><a class="new" href="offene-themen.html" title="Seite existiert noch nicht">Datei richtig benennen</a></li><li><a class="new" href="offene-themen.html" title="Seite existiert noch nicht">Datei in Teams hochladen</a></li><li><a class="new" href="offene-themen.html" title="Seite existiert noch nicht">Ordner in Teams anlegen</a></li><li><a class="new" href="offene-themen.html" title="Seite existiert noch nicht">Bild in Word einfügen</a></li><li><a class="new" href="offene-themen.html" title="Seite existiert noch nicht">Wiki-Seite ausfüllen</a></li></ul>
+</section>
+</div>
+<section class="box">
+<h2>Bereiche</h2>
+<ul class="cats"><li><a href="kategorie/grundlagen.html"><b>Grundlagen</b></a> <span>1 Seite</span></li><li><a class="new" href="kategorie/leer.html"><b>Word</b></a> <span>noch leer</span></li><li><a class="new" href="kategorie/leer.html"><b>Excel</b></a> <span>noch leer</span></li><li><a class="new" href="kategorie/leer.html"><b>PowerPoint</b></a> <span>noch leer</span></li><li><a class="new" href="kategorie/leer.html"><b>Gestaltung</b></a> <span>noch leer</span></li><li><a class="new" href="kategorie/leer.html"><b>Kommunikation</b></a> <span>noch leer</span></li></ul>
+</section>
+<section class="box">
+<h2>So machst du mit</h2>
+<ol><li>Thema wählen und in die Liste eintragen</li><li>Video-Planung schreiben: Thema, Was muss rein?</li><li>Erklärvideo aufnehmen und schneiden</li><li>Wiki-Seite schreiben und in Teams hochladen</li><li>Ein anderes Paar prüft den Artikel (Diskussion)</li></ol>
+<p><a href="mitmachen.html">Mehr dazu auf der Seite „Mitmachen“</a></p>
+</section>
 
-  <h2>Grundlagen</h2>
-  <div class="grid">
-    <a class="card" href="grundlagen/screenshot-erstellen.html">
-      <b>Screenshot erstellen</b>
-      <span>Mit Win + Shift + S einen Ausschnitt aufnehmen und einfügen.</span><br>
-      <span class="pill">Beispiel-Eintrag</span>
-    </a>
-    <div class="card soon"><b>Bildschirm aufnehmen</b><span>kommt bald</span></div>
-    <div class="card soon"><b>Datei richtig benennen</b><span>kommt bald</span></div>
-    <div class="card soon"><b>Datei in Teams hochladen</b><span>kommt bald</span></div>
-  </div>
-
-  <h2>Weitere Bereiche</h2>
-  <div class="grid">
-    <div class="card soon"><b>Word</b><span>kommt bald</span></div>
-    <div class="card soon"><b>Excel</b><span>kommt bald</span></div>
-    <div class="card soon"><b>PowerPoint</b><span>kommt bald</span></div>
-    <div class="card soon"><b>Gestaltung</b><span>kommt bald</span></div>
-    <div class="card soon"><b>Kommunikation</b><span>kommt bald</span></div>
-  </div>
+</div>
+<footer class="foot">Diese Seite wurde zuletzt am 16. November 2026 bearbeitet. Ein Projekt der Klasse 10M.</footer>
 </main>
-
-<footer class="site">
-  <div class="wrap">Ein Projekt der Klasse 10M</div>
-</footer>
+</div>
 </body>
 </html>

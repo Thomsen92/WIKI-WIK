@@ -4,92 +4,95 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Screenshot erstellen – WIK-Wiki</title>
-<meta name="description" content="Mit Win + Shift + S einen Bildschirmausschnitt aufnehmen und in ein Dokument einfügen.">
 <link rel="stylesheet" href="../assets/style.css">
+<script defer src="../assets/wiki.js"></script>
 </head>
 <body>
-<header class="site">
-  <div class="wrap">
-    <a href="../index.html">WIK-Wiki</a>
-    <span class="tag">Klasse 10M</span>
-  </div>
+<header class="top">
+  <button class="menu" aria-label="Menü" onclick="document.body.classList.toggle('navopen')">☰</button>
+  <a class="brand" href="../index.html">WIK-Wiki</a>
+  <form class="search" role="search" onsubmit="return false">
+    <input id="q" type="search" placeholder="WIK-Wiki durchsuchen" autocomplete="off" aria-label="Suche" data-base="../">
+    <ul id="results" hidden></ul>
+  </form>
 </header>
+<div class="layout">
+<aside class="side" aria-label="Navigation">
+  <a class="logo" href="../index.html"><span class="mark">W</span><span><b>WIK-Wiki</b><small>Das Nachschlagewerk der Klasse 10M</small></span></a>
+  <section><h2>Navigation</h2><ul>
+    <li><a href="../index.html">Hauptseite</a></li>
+    <li><a href="../alle-seiten.html">Alle Seiten</a></li>
+    <li><a href="../offene-themen.html">Offene Themen</a></li>
+    <li><a href="../mitmachen.html">Mitmachen</a></li>
+  </ul></section>
+  <section><h2>Bereiche</h2><ul><li><a href="../kategorie/grundlagen.html">Grundlagen</a></li><li><a class="new" href="../kategorie/leer.html" title="Noch keine Seiten">Word</a></li><li><a class="new" href="../kategorie/leer.html" title="Noch keine Seiten">Excel</a></li><li><a class="new" href="../kategorie/leer.html" title="Noch keine Seiten">PowerPoint</a></li><li><a class="new" href="../kategorie/leer.html" title="Noch keine Seiten">Gestaltung</a></li><li><a class="new" href="../kategorie/leer.html" title="Noch keine Seiten">Kommunikation</a></li></ul></section>
+</aside>
+<main class="content">
+<nav class="tabs" aria-label="Seitenreiter"><ul><li class="on"><a href="screenshot-erstellen.html">Artikel</a></li><li><a href="screenshot-erstellen-diskussion.html">Diskussion</a></li><li><a href="screenshot-erstellen-versionen.html">Versionsgeschichte</a></li></ul></nav>
+<div class="page">
+<h1 class="first">Screenshot erstellen</h1>
+<div class="sub">aus dem WIK-Wiki, dem Nachschlagewerk der Klasse 10M</div>
+<p class="hatnote">Dies ist ein <b>Beispiel-Eintrag</b> der Lehrkraft. Eure Artikel sehen genauso aus.</p>
 
-<main class="wrap">
-  <nav class="crumbs" aria-label="Pfad"><a href="../index.html">Start</a> › Grundlagen › Screenshot erstellen</nav>
-  <h1>Screenshot erstellen</h1>
-  <p class="lead">So fotografierst du einen Ausschnitt deines Bildschirms und fügst ihn in dein Dokument ein.</p>
-  <div class="meta">
-    <span class="chip">Bereich: Grundlagen</span>
-    <span class="chip">Dauer: 2 Minuten</span>
-    <span class="chip">Windows 10 und 11</span>
-    <span class="chip ok">Beispiel-Eintrag</span>
-  </div>
+<table class="infobox" aria-label="Infobox">
+<caption>Screenshot erstellen</caption>
+<tr><td colspan="2" class="vid"><video controls preload="metadata" poster="assets/screenshot-poster.png"><source src="assets/screenshot-erstellen.mp4" type="video/mp4">Video nicht verfügbar.</video><div class="cap">Erklärvideo, 36 Sekunden, ohne Ton</div></td></tr>
+<tr><th>Bereich</th><td><a href="../kategorie/grundlagen.html">Grundlagen</a></td></tr>
+<tr><th>Tastenkürzel</th><td><kbd>Win</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd></td></tr>
+<tr><th>System</th><td>Windows 10 und 11</td></tr>
+<tr><th>Dauer</th><td>etwa 2 Minuten</td></tr>
+<tr><th>Autor</th><td>Beispiel (Lehrkraft)</td></tr>
+<tr><th>Fassung</th><td>v1, geprüft</td></tr>
+</table>
 
-  <h2>Video</h2>
-  <div class="video">
-    <video controls preload="metadata" poster="assets/screenshot-poster.png" aria-describedby="vidcap">
-      <source src="assets/screenshot-erstellen.mp4" type="video/mp4">
-      Dein Browser kann dieses Video nicht abspielen. Die Schritte stehen unten als Text.
-    </video>
-  </div>
-  <p class="caption" id="vidcap">36 Sekunden, ohne Ton. Die Schritte stehen auch unten.</p>
+<p id="ueberblick"><b>Ein Screenshot</b> (auch <i>Bildschirmfoto</i>) ist ein Bild von dem, was gerade auf dem Bildschirm zu sehen ist. Mit dem Tastenkürzel <kbd>Win</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> kannst du einen Ausschnitt aufnehmen und ihn danach in ein Dokument einfügen, zum Beispiel in <a class="new" href="../offene-themen.html" title="Seite existiert noch nicht">Word</a> oder in eine <a href="../grundlagen/screenshot-erstellen.html">Wiki-Seite</a>.</p>
 
-  <h2>Schritt für Schritt</h2>
-  <ol class="steps">
-    <li>
-      <h3>Drücke <kbd>Win</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd></h3>
-      <p>Halte alle drei Tasten gleichzeitig gedrückt. Der Bildschirm wird dunkel.</p>
-      <img src="assets/screenshot-step1.png" alt="Die drei Tasten Windows, Shift und S, darunter ein abgedunkelter Bildschirm" loading="lazy">
-    </li>
-    <li>
-      <h3>Ziehe einen Rahmen um den Bereich</h3>
-      <p>Halte die linke Maustaste gedrückt und ziehe ein Rechteck um das, was du speichern willst. Lass dann los.</p>
-      <img src="assets/screenshot-step2.png" alt="Ein Rahmen wird um ein Diagramm gezogen, oben ist die Auswahlleiste" loading="lazy">
-    </li>
-    <li>
-      <h3>Der Screenshot ist jetzt kopiert</h3>
-      <p>Unten rechts erscheint eine Meldung. Dein Bild liegt jetzt in der Zwischenablage.</p>
-      <img src="assets/screenshot-step3.png" alt="Unten rechts die Meldung, dass der Screenshot in die Zwischenablage kopiert wurde" loading="lazy">
-    </li>
-    <li>
-      <h3>Füge ihn mit <kbd>Strg</kbd> + <kbd>V</kbd> ein</h3>
-      <p>Klicke in dein Word-Dokument an die Stelle, wo das Bild hin soll, und drücke <kbd>Strg</kbd> + <kbd>V</kbd>.</p>
-      <img src="assets/screenshot-step4.png" alt="Das Diagramm wurde in ein Word-Dokument eingefügt" loading="lazy">
-    </li>
-  </ol>
+<nav class="toc" aria-label="Inhaltsverzeichnis"><b>Inhaltsverzeichnis</b><ol><li><a href="#ueberblick">Überblick</a></li><li><a href="#voraussetzungen">Voraussetzungen</a></li><li><a href="#anleitung">Anleitung</a></li><li><a href="#fehler">Typische Fehler</a></li><li><a href="#uebung">Übung</a></li><li><a href="#siehe-auch">Siehe auch</a></li></ol></nav>
 
-  <h2>Typische Fehler und Tipps</h2>
-  <div class="box warn">
-    <ul>
-      <li><b>Nichts passiert?</b> Drücke alle drei Tasten wirklich gleichzeitig und lass sie dann sofort los.</li>
-      <li><b>Bild weg?</b> Der Screenshot liegt nur in der Zwischenablage. Wenn du danach etwas anderes kopierst (<kbd>Strg</kbd> + <kbd>C</kbd>), ist er überschrieben.</li>
-      <li><b>Dauerhaft speichern:</b> Klicke auf die Meldung unten rechts. Im Fenster, das sich öffnet, speicherst du das Bild mit <kbd>Strg</kbd> + <kbd>S</kbd>.</li>
-      <li><b>Datenschutz:</b> Achte darauf, dass auf dem Screenshot keine Namen, Passwörter oder Gesichter zu sehen sind.</li>
-    </ul>
-  </div>
+<h2 id="voraussetzungen"><span class="n">1</span> Voraussetzungen</h2>
+<p>Du brauchst einen Windows-Rechner (Windows 10 oder 11) und etwas, das du fotografieren willst. Mehr nicht.</p>
 
-  <h2>Mini-Übung</h2>
-  <div class="box">
-    <p><b>Aufgabe:</b> Mache einen Screenshot von einem Ausschnitt deines Bildschirms und füge ihn in ein leeres Word-Dokument ein. Speichere es als <code>Screenshot_KÜRZEL_v1.docx</code>.</p>
-    <details>
-      <summary>Lösung anzeigen</summary>
-      <ol>
-        <li><kbd>Win</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> drücken und Rahmen ziehen.</li>
-        <li>Word öffnen, ins leere Dokument klicken, <kbd>Strg</kbd> + <kbd>V</kbd>.</li>
-        <li>Mit <kbd>Strg</kbd> + <kbd>S</kbd> unter dem richtigen Namen speichern (Kürzel statt Namen).</li>
-      </ol>
-    </details>
-  </div>
+<h2 id="anleitung"><span class="n">2</span> Anleitung</h2>
+<h3>1. Drücke Win + Shift + S</h3>
+<p>Halte alle drei Tasten gleichzeitig gedrückt. Der Bildschirm wird dunkel und oben erscheint eine kleine Auswahlleiste.</p>
+<figure class="thumb"><a href="assets/screenshot-step1.png"><img src="assets/screenshot-step1.png" alt="Die Tasten Windows, Shift und S, darunter ein abgedunkelter Bildschirm" loading="lazy"></a><figcaption>Schritt 1: Drücke Win + Shift + S</figcaption></figure>
+<h3>2. Ziehe einen Rahmen um den Bereich</h3>
+<p>Halte die linke Maustaste gedrückt und ziehe ein Rechteck um das, was du speichern willst. Lass dann los.</p>
+<figure class="thumb"><a href="assets/screenshot-step2.png"><img src="assets/screenshot-step2.png" alt="Ein Rahmen wird um ein Diagramm gezogen" loading="lazy"></a><figcaption>Schritt 2: Ziehe einen Rahmen um den Bereich</figcaption></figure>
+<h3>3. Der Screenshot ist jetzt kopiert</h3>
+<p>Unten rechts erscheint eine Meldung. Das Bild liegt in der <a href="#fehler">Zwischenablage</a>.</p>
+<figure class="thumb"><a href="assets/screenshot-step3.png"><img src="assets/screenshot-step3.png" alt="Meldung unten rechts: Screenshot in die Zwischenablage kopiert" loading="lazy"></a><figcaption>Schritt 3: Der Screenshot ist jetzt kopiert</figcaption></figure>
+<h3>4. Mit Strg + V einfügen</h3>
+<p>Klicke ins Word-Dokument an die richtige Stelle und drücke <kbd>Strg</kbd> + <kbd>V</kbd>.</p>
+<figure class="thumb"><a href="assets/screenshot-step4.png"><img src="assets/screenshot-step4.png" alt="Das Diagramm wurde in ein Word-Dokument eingefügt" loading="lazy"></a><figcaption>Schritt 4: Mit Strg + V einfügen</figcaption></figure>
 
-  <h2>Das passt dazu</h2>
-  <p>Als Nächstes: Bildschirm aufnehmen, Datei richtig benennen, Datei in Teams hochladen (kommen bald im Bereich Grundlagen).</p>
+<h2 id="fehler"><span class="n">3</span> Typische Fehler</h2>
+<ul>
+<li><b>Nichts passiert?</b> Drücke alle drei Tasten gleichzeitig und lass sie sofort wieder los.</li>
+<li><b>Bild weg?</b> Der Screenshot liegt nur in der <i>Zwischenablage</i>. Wer danach etwas anderes kopiert (<kbd>Strg</kbd> + <kbd>C</kbd>), überschreibt ihn.</li>
+<li><b>Dauerhaft speichern:</b> Klicke auf die Meldung unten rechts und speichere das Bild mit <kbd>Strg</kbd> + <kbd>S</kbd>.</li>
+<li><b>Datenschutz:</b> Auf dem Screenshot dürfen keine Namen, Passwörter oder Gesichter zu sehen sein.</li>
+</ul>
+
+<h2 id="uebung"><span class="n">4</span> Übung</h2>
+<p><b>Aufgabe:</b> Mache einen Screenshot von einem Ausschnitt deines Bildschirms und füge ihn in ein leeres Word-Dokument ein. Speichere es als <code>Screenshot_KÜRZEL_v1.docx</code>.</p>
+<details><summary>Lösung anzeigen</summary>
+<ol><li><kbd>Win</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> drücken und Rahmen ziehen.</li>
+<li>Word öffnen, ins leere Dokument klicken, <kbd>Strg</kbd> + <kbd>V</kbd>.</li>
+<li>Mit <kbd>Strg</kbd> + <kbd>S</kbd> unter dem richtigen Namen speichern (Kürzel statt Namen).</li></ol></details>
+
+<h2 id="siehe-auch"><span class="n">5</span> Siehe auch</h2>
+<ul>
+<li><a class="new" href="../offene-themen.html" title="Seite existiert noch nicht">Bildschirm aufnehmen</a></li>
+<li><a class="new" href="../offene-themen.html" title="Seite existiert noch nicht">Datei richtig benennen</a></li>
+<li><a class="new" href="../offene-themen.html" title="Seite existiert noch nicht">Datei in Teams hochladen</a></li>
+</ul>
+
+<div class="catlinks"><b>Kategorien:</b> <a href="../kategorie/grundlagen.html">Grundlagen</a> | <a href="../kategorie/beispiel.html">Beispiel-Eintrag</a></div>
+
+</div>
+<footer class="foot">Diese Seite wurde zuletzt am 16. November 2026 bearbeitet. Ein Projekt der Klasse 10M.</footer>
 </main>
-
-<footer class="site">
-  <div class="wrap">
-    Beispiel-Eintrag · Erstellt von: Lehrkraft · Geprüft: ja · Fassung v1
-  </div>
-</footer>
+</div>
 </body>
 </html>
