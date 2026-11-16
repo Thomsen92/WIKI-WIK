@@ -128,3 +128,19 @@ a:focus-visible, summary:focus-visible, video:focus-visible, button:focus-visibl
   .cols { grid-template-columns: 1fr; }
   ul.two { columns: 1; }
 }
+
+/* Zusätze: Ablauf, Empfehlung, Einzelnachweise */
+.flow { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 10px 0 14px; }
+.flow span { background: var(--info-head); border: 1px solid var(--line); padding: 5px 12px; font-weight: 600; font-size: 14px; }
+.flow i { font-style: normal; color: var(--muted); }
+.rec { background: var(--warn); border: 1px solid var(--line); padding: 8px 14px; margin: 10px 0; }
+ol.refs { font-size: 14px; color: var(--muted); }
+ol.refs a { overflow-wrap: anywhere; }
+table.data td, table.data th { vertical-align: top; }
+.page { overflow-wrap: break-word; }
+@media (max-width: 820px) { .page table.data { display: block; overflow-x: auto; } }
+
+/* FreeCut-Anleitung */
+figure.thumb.wide { max-width: 720px; }
+.tip { background: var(--box); border-left: 4px solid var(--accent); padding: 6px 12px; }
+h4 { font-size: 16px; margin: 1em 0 .3em; }
