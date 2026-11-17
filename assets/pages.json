@@ -36,16 +36,34 @@
   "k": "wiki seite schreiben word formatierung vorlage beispiel überschrift bilder datei 03 wikiseite"
  },
  {
+  "t": "Datei speichern",
+  "u": "windows/datei-speichern.html",
+  "s": "Mit Datei, Speichern unter und Durchsuchen eine Datei im richtigen Ordner speichern.",
+  "k": "datei speichern speichern unter durchsuchen ordner dateiname f12 strg s word windows wiederfinden"
+ },
+ {
+  "t": "Neue Folie und Layout",
+  "u": "powerpoint/neue-folie-und-layout.html",
+  "s": "Eine neue Folie einfügen (Strg + M) und das Layout einer Folie ändern.",
+  "k": "powerpoint neue folie layout strg m folie einfügen titelfolie"
+ },
+ {
+  "t": "Text und Bild auf der Folie",
+  "u": "powerpoint/text-und-bild-auf-der-folie.html",
+  "s": "Ein Textfeld einfügen, ein Bild kopieren und einfügen, Größe und Position ändern.",
+  "k": "powerpoint textfeld bild einfügen kopieren strg v größe position folie"
+ },
+ {
   "t": "Datei richtig benennen",
   "u": "themen/datei-richtig-benennen.html",
   "s": "Offenes Thema (Windows): Ein Dateiname nach unserer Regel, damit jeder die Datei sofort findet.",
   "k": "datei umbenennen dateiname namensregel f2 kürzel version windows"
  },
  {
-  "t": "Ordner anlegen und Datei speichern",
-  "u": "themen/ordner-anlegen-und-datei-speichern.html",
-  "s": "Offenes Thema (Windows): Einen Ordner anlegen, eine Datei dort speichern und wiederfinden.",
-  "k": "ordner anlegen speichern speichern unter explorer speicherort windows"
+  "t": "Ordner anlegen",
+  "u": "themen/ordner-anlegen.html",
+  "s": "Offenes Thema (Windows): Einen neuen Ordner anlegen, sinnvoll benennen und eine Datei darin ablegen.",
+  "k": "ordner anlegen neuer ordner explorer benennen windows"
  },
  {
   "t": "Datei in Teams hochladen",
@@ -106,18 +124,6 @@
   "u": "themen/diagramm-erstellen.html",
   "s": "Offenes Thema (Excel): Aus einer Tabelle ein einfaches Diagramm machen.",
   "k": "excel diagramm säulen kreis titel achsen excel"
- },
- {
-  "t": "Neue Folie und Layout",
-  "u": "themen/neue-folie-und-layout.html",
-  "s": "Offenes Thema (PowerPoint): Folien anlegen, ein Layout wählen und die Folien ordnen.",
-  "k": "powerpoint neue folie layout duplizieren folie verschieben powerpoint"
- },
- {
-  "t": "Text und Bild auf der Folie",
-  "u": "themen/text-und-bild-auf-der-folie.html",
-  "s": "Offenes Thema (PowerPoint): Text und ein Bild auf einer Folie platzieren.",
-  "k": "powerpoint textfeld bild einfügen position ausrichten powerpoint"
  },
  {
   "t": "Animation Erscheinen",
