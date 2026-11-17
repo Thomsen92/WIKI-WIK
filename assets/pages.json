@@ -38,20 +38,20 @@
  {
   "t": "Datei speichern",
   "u": "windows/datei-speichern.html",
-  "s": "Mit Datei, Speichern unter und Durchsuchen eine Datei im richtigen Ordner speichern.",
-  "k": "datei speichern speichern unter durchsuchen ordner dateiname f12 strg s word windows wiederfinden"
+  "s": "Wie man eine Datei richtig speichert und wieder findet.",
+  "k": "datei speichern speichern unter durchsuchen ordner windows"
  },
  {
   "t": "Neue Folie und Layout",
   "u": "powerpoint/neue-folie-und-layout.html",
-  "s": "Eine neue Folie einfügen (Strg + M) und das Layout einer Folie ändern.",
-  "k": "powerpoint neue folie layout strg m folie einfügen titelfolie"
+  "s": "Folie hinzufügen (Strg + M) und Layout wechseln.",
+  "k": "powerpoint neue folie layout strg m"
  },
  {
   "t": "Text und Bild auf der Folie",
   "u": "powerpoint/text-und-bild-auf-der-folie.html",
-  "s": "Ein Textfeld einfügen, ein Bild kopieren und einfügen, Größe und Position ändern.",
-  "k": "powerpoint textfeld bild einfügen kopieren strg v größe position folie"
+  "s": "Erklärvideo zu Text und Bild auf der Folie.",
+  "k": "powerpoint text bild folie"
  },
  {
   "t": "Datei richtig benennen",
