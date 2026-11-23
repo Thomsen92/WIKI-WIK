@@ -102,10 +102,28 @@
   "k": "word bild einfügen größe textumbruch screenshot word"
  },
  {
+  "t": "Tabelle in Word erstellen",
+  "u": "themen/tabelle-in-word-erstellen.html",
+  "s": "Offenes Thema (Word): Eine Tabelle in Word einfügen, ausfüllen und übersichtlich machen.",
+  "k": "word tabelle einfügen zeilen spalten zellen tabellenentwurf rahmen word"
+ },
+ {
+  "t": "Serienbrief: Felder auswählen",
+  "u": "themen/serienbrief-felder-auswaehlen.html",
+  "s": "Offenes Thema (Word): In einem Serienbrief die Felder aus einer Liste einfügen, damit jeder Brief andere Daten bekommt.",
+  "k": "word serienbrief seriendruck felder empfänger sendungen vorschau word"
+ },
+ {
   "t": "Daten eingeben und Spalten anpassen",
   "u": "themen/daten-eingeben-und-spalten-anpassen.html",
   "s": "Offenes Thema (Excel): Eine kleine Tabelle eingeben und lesbar machen.",
   "k": "excel zellen eingeben spaltenbreite zeile spalte tabelle excel"
+ },
+ {
+  "t": "Automatisch vervollständigen",
+  "u": "themen/automatisch-vervollstaendigen.html",
+  "s": "Offenes Thema (Excel): Reihen wie Zahlen, Wochentage oder Monate nicht von Hand tippen, sondern von Excel ausfüllen lassen.",
+  "k": "excel automatisch ausfüllen vervollständigen ausfüllkästchen reihe ziehen excel"
  },
  {
   "t": "Summe berechnen",
@@ -126,10 +144,10 @@
   "k": "excel diagramm säulen kreis titel achsen excel"
  },
  {
-  "t": "Animation Erscheinen",
-  "u": "themen/animation-erscheinen.html",
-  "s": "Offenes Thema (PowerPoint): Ein Objekt per Klick auf der Folie erscheinen lassen.",
-  "k": "powerpoint animation erscheinen beim klicken reihenfolge powerpoint"
+  "t": "Animation Erscheinen und Verschwinden",
+  "u": "themen/animation-erscheinen-und-verschwinden.html",
+  "s": "Offenes Thema (PowerPoint): Ein Objekt per Klick auf der Folie erscheinen und wieder verschwinden lassen.",
+  "k": "powerpoint animation erscheinen verschwinden eingang ausgang beim klicken reihenfolge powerpoint"
  },
  {
   "t": "Folienübergang",
