@@ -78,6 +78,12 @@
   "k": "kopieren ausschneiden einfügen strg c v x z tastenkürzel zwischenablage windows"
  },
  {
+  "t": "Druckoptionen einstellen",
+  "u": "themen/druckoptionen-einstellen.html",
+  "s": "Offenes Thema (Windows): Vor dem Drucken die richtigen Einstellungen wählen: beidseitig, Farbe oder Schwarzweiß und mehr.",
+  "k": "drucken drucker druckoptionen beidseitig farbe schwarzweiß kopien seiten hochformat querformat vorschau strg p windows"
+ },
+ {
   "t": "Text formatieren: fett, kursiv, unterstrichen",
   "u": "themen/text-formatieren-fett-kursiv-unterstrichen.html",
   "s": "Offenes Thema (Word): Einen Text mit fett, kursiv und unterstrichen hervorheben.",
@@ -154,5 +160,17 @@
   "u": "themen/folienuebergang.html",
   "s": "Offenes Thema (PowerPoint): Einen Übergang zwischen Folien einstellen.",
   "k": "powerpoint übergang folienübergang dauer präsentationsmodus f5 powerpoint"
+ },
+ {
+  "t": "Gestaltungsprinzipien",
+  "u": "themen/gestaltungsprinzipien.html",
+  "s": "Offenes Thema (Gestaltung): Zeigen, nach welchen Regeln man Dokumente und Folien übersichtlich und schön gestaltet.",
+  "k": "gestaltung gestaltungsprinzipien layout übersichtlich schrift farbe abstand ausrichtung gestaltung"
+ },
+ {
+  "t": "Geschäftsbrief: Was ist zu beachten",
+  "u": "themen/geschaeftsbrief-was-ist-zu-beachten.html",
+  "s": "Offenes Thema (Kommunikation): Erklären, aus welchen Teilen ein Geschäftsbrief besteht und worauf man beim Schreiben achten muss.",
+  "k": "geschäftsbrief brief anrede betreff grußformel unterschrift absender empfänger din 5008 kommunikation kommunikation"
  }
 ]
